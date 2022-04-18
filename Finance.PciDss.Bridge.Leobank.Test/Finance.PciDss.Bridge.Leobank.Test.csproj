@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Finance.PciDss.PciDssBridgeGrpc" Version="1.0.20" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Finance.PciDss.Bridge.Leobank.Cripto\Finance.PciDss.Bridge.Leobank.Cripto.csproj" />
+    <ProjectReference Include="..\Finance.PciDss.Bridge.Leobank.Server\Finance.PciDss.Bridge.Leobank.Server.csproj" />
+  </ItemGroup>
+
+</Project>
